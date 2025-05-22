@@ -3,14 +3,15 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    /* CAMBIOS AQUÍ para azul marino de fondo y texto claro */
+    background-color: #001f3f; /* Azul marino */
+    color: #f4f4f4; /* Texto claro para contraste */
     line-height: 1.6;
 }
 
 /* Header */
 header {
-    background-color: #333;
+    background-color: #333; /* Mantener este fondo oscuro para el header */
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -29,7 +30,8 @@ nav li {
 }
 
 nav a {
-    color: white;
+    /* CAMBIO AQUÍ para enlaces de navegación rojos */
+    color: red; 
     text-decoration: none;
 }
 
@@ -38,7 +40,7 @@ nav a {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/imagen1.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: white; /* Mantener texto blanco para contraste con la imagen */
     text-align: center;
     padding: 4rem 0;
 }
@@ -52,6 +54,9 @@ nav a {
 .productos {
     padding: 2rem;
     text-align: center;
+    /* Asegurarse de que el color de fondo sea diferente al del body si quieres que se vea como una sección separada */
+    background-color: #f4f4f4; /* Fondo claro para las cards de productos */
+    color: #333; /* Texto oscuro para contraste con el fondo claro de la sección */
 }
 
 .productos-grid {
@@ -81,11 +86,13 @@ nav a {
     padding: 1rem;
     margin: 0;
     text-align: center;
+    color: #333; /* Asegurar que los títulos de las cards sean oscuros */
 }
 
 .card p {
     padding: 0 1rem 1rem;
     text-align: center;
+    color: #333; /* Asegurar que los párrafos de las cards sean oscuros */
 }
 
 .card button {
@@ -102,7 +109,8 @@ nav a {
 .contacto {
     padding: 2rem;
     text-align: center;
-    background-color: #eee;
+    background-color: #eee; /* Fondo claro para la sección de contacto */
+    color: #333; /* Texto oscuro para contraste */
 }
 
 .contacto h2 {
@@ -118,6 +126,7 @@ nav a {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: bold;
+    color: #333; /* Asegurar que los labels sean oscuros */
 }
 
 .form-group input,
@@ -126,6 +135,8 @@ nav a {
     padding: 0.75rem;
     border: 1px solid #ccc;
     border-radius: 4px;
+    color: #333; /* Asegurar que el texto de entrada sea oscuro */
+    background-color: white; /* Asegurar que el fondo de los inputs sea blanco */
 }
 
 .contacto button {
@@ -141,6 +152,8 @@ nav a {
 .reseñas {
     padding: 2rem;
     text-align: center;
+    background-color: #f4f4f4; /* Fondo claro para la sección de reseñas */
+    color: #333; /* Texto oscuro para contraste */
 }
 
 .reseñas-grid {
@@ -160,17 +173,20 @@ nav a {
 
 .reseña p {
     margin-bottom: 0.5rem;
+    color: #333; /* Asegurar que el texto de la reseña sea oscuro */
 }
 
 .reseña cite {
     font-style: italic;
-    color: #777;
+    color: #777; /* Mantener este color para el nombre del cliente */
 }
 
 /* Multimedia Section */
 .multimedia {
     padding: 2rem;
     text-align: center;
+    background-color: #001f3f; /* Puedes dejarlo azul marino o cambiarlo para contrastar */
+    color: #f4f4f4; /* Asegurar texto claro para esta sección si el fondo es oscuro */
 }
 
 .multimedia-container {
